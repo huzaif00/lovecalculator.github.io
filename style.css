@@ -1,0 +1,267 @@
+*
+{
+ padding: 0;
+ margin: 0;
+}
+#title{
+ background-image: url("image1.jpeg");
+ background-position: center;
+ background-repeat: no-repeat;
+ background-size:cover;
+ background-attachment:fixed; 
+}
+#title nav 
+{
+ background-color: rgba(0,0,0,0.3);
+}
+
+#calculator
+{
+ background-image: url("image1.jpeg");
+ background-position: center;
+ background-repeat: no-repeat;
+ background-size:cover;
+ background-attachment:fixed;
+ min-height: 596px;
+}
+.inner-box
+{
+ border: solid 2px;
+ border-radius: 12px;
+ background-color: rgba(255,255,255,0.5);
+ padding:9% 5%;
+ border-color:rgba(246, 90, 131,0.8);
+ box-shadow: 0 0 25px rgba(0,0,0,0.7);
+ position: relative;
+}
+
+.inner-box:hover
+{
+ box-shadow: 0 0 30px rgba(0,0,0,0.9);
+ outline: solid 0px rgba(246, 90, 131,0.8);
+ transition: 0.3s ease-in-out;
+}
+
+.outer-box
+{
+ padding-top: 9%;
+ padding-bottom: 7%; 
+}
+.label
+{
+ font-weight: bold;
+ font-size: 1rem;
+ color: white;
+ line-height: 2.5;
+ color: rgb(255,135,178);
+}
+
+.input-name-box
+{
+padding: 2% 3.5%;
+border-radius: 10px;
+width: 100%;
+border-color:rgba(246, 90, 131,0.8);
+border-style: solid;
+background-color:transparent;
+color:rgba(0,0,0,0.5);
+}
+.input-name-box:hover,.input-name-box:focus
+{
+padding: 3.5% 2%;
+box-shadow: 0 0 20px rgba(0,0,0,0.7);
+outline: none;
+transition: 0.4s ease-in-out;
+}
+.input-name-box::placeholder
+{
+ color:rgba(0,0,0,0.5);
+}
+
+.line
+{
+  margin:12% auto 5% auto;
+  border: dashed 2px;
+  width: 20%;
+  color:rgba(0,0,0,0.8);
+}
+
+.submit
+{
+ padding: 2.5% 7%;
+ font-size:1.1rem;
+ font-weight: 500;
+ color: rgb(246, 40, 131);
+ background-color: transparent;
+ border-radius: 30px;
+ border:solid rgba(246, 90, 131,0.8) 2px;
+ margin-top: 9%;
+ text-align: center;
+}
+.submit:hover
+{
+ color:white;
+ background-color: rgba(246, 40, 131,0.7);
+ box-shadow:0 0 10px rgba(0,0,0,0.8);
+ transition: 0.4s ease-in-out;
+}
+.submit:active
+{
+ opacity: 0.5;
+ transition: 0.2s;
+}
+
+.inner-box .heading
+{
+ text-align: center;
+ line-height: 1.2;
+ font-size: 4rem;
+ font-family: 'Tangerine', cursive;
+ color:#D75281;
+text-shadow: 0px 6px 6px #D75281;
+padding-bottom: 3%;
+}
+
+.heading span
+{
+ display: inline-block;
+ font-size: 2rem;
+}
+.center-btn
+{
+ text-align: center;
+}
+.inner-box h2
+{
+ font-size: 3rem;
+}
+.inner-box p
+{
+ font-size: 1.1rem;
+ text-align: center; 
+}
+.hide-contant
+{
+ display: none;
+}
+
+.open
+{
+ animation: open 0.6s forwards;
+}
+
+@keyframes open
+{
+ 0%
+ {
+  transform: scale(0);
+ }
+  50%
+ {
+  transform: scale(1.2);
+ }
+ 70%
+ {
+  transform:scale(0.95);
+ }
+ 95%
+ {
+  transform: scale(1.1);
+ }
+ 100%
+ {
+  transform: scale(1);
+ }
+}
+
+.result-box button
+{
+ position: absolute;
+ right: -4%;
+ top:-4%;
+ background-color:rgba(255,0,0,1);
+ color:white;
+ border-style: none;
+ border-radius: 100%;
+ padding:3% 4%;
+ font-weight: 900;
+ box-shadow: 0 0 15px black;
+}
+.result-box button:hover
+{
+ background-color:rgba(255,75,75,1);
+ outline: solid 2px rgba(255,75,75,1);
+ transition: 0.1s ease-in-out;
+ text-shadow: 0 0 3px white;
+}
+.result-box button:active
+{
+ background-color:rgba(255,125,125,1);
+ outline: none;
+}
+.carousel-item
+{
+ padding: 30% 15%;
+}
+
+.quotes-box
+{
+ padding: 10% 10%;
+ border: solid 2px grey;
+ border-radius: 25px;
+ box-shadow: 0 0 20px black;
+ text-align: center;
+}
+.quotes-box:hover
+{
+ padding: 12% 8%;
+ border: solid 2px grey;
+ border-radius: 25px;
+ box-shadow: 0 0 30px black;
+ transition: 0.3s ease-in-out;
+}
+.quotes-box span
+{
+ line-height: 1.5;
+ font-size: 1.1rem;
+ font-style: italic;
+ font-weight: thin;
+}
+.quotes-box .heading
+{
+ text-align: center;
+ line-height: 1.2;
+ font-size: 4rem;
+ font-family: 'Tangerine', cursive;
+ color:#D75281;
+text-shadow: 0px 6px 6px #D75281;
+padding-bottom: 3%;
+}
+#footer 
+ { 
+ padding:10% 15%; 
+ text-align: center; 
+ } 
+ #footer p{ 
+ padding-top: 3%;
+ } 
+ .con 
+ { 
+ padding: 2%; 
+ font-size: 1.5rem; 
+ text-decoration: none;
+ color: black;
+ }
+.con:visited
+{
+ color: black;
+}
+.con:active
+{
+ color: black;
+ opacity: 0.7;
+}
+.con:hover
+{
+ color: rgba(0, 0, 0, 0.9);
+}

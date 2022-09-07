@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Heart Shake</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+        crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Marck+Script&family=Tangerine:wght@700&display=swap"
+        rel="stylesheet">
+    <script src="https://kit.fontawesome.com/943a261f09.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <section id="title">
+        <!--           navbar           -->
+        <nav class="navbar navbar-expand-md navbar-dark sticky-top">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#title" style="font-size: 1.5rem;">💗Heart Shake</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText"
+                    aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarText">
+                    <ul class="navbar-nav" style="margin-left:auto; margin-right:0;">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#footer">Contact</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#calculator">Calculate</a>
+                        </li>
+                  
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-10 col-lg-8 outer-box mx-auto">
+                    <div class="inner-box">
+                        <h1 class="heading" style="text-align: left;">Definitions of Love</h1>
+                        <p style="text-align: left;">
+                            Love is a word that has a variety of different meanings within different contexts. It is
+                            generally defined as a strong affection for another person, be it maternal, sexual, or based
+                            on admiration, and is sometimes even extended to objects or even food.
+                        </p>
+                        <p style="text-align: left;">
+                            Love is sometimes categorized as either impersonal or interpersonal love. Impersonal love is
+                            that for an object, principle, or goal that a person may be deeply committed to or greatly
+                            value. Examples include the love of "life itself," love for a stuffed animal, or even love
+                            for a cause or idea.
+                        </p>
+                        <a href="#calculator"><button class="submit">Calculate</button>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="Quotes">
+
+        <div id="carousel-Fade" class="carousel slide" data-bs-ride="carousel" data-interval="2500">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+
+                    <div class="quotes-box">
+                        <h1 class="heading">Quotes</h1>
+                        <span>“I saw that you were perfect, and so I loved you. Then I saw that you were not perfect and
+                            I loved you even more.” —Angelita Lim</span>
+                    </div>
+                </div>
+                <div class="carousel-item">
+
+                    <div class="quotes-box">
+                        <h1 class="heading">Quotes</h1>
+                        <span>“You know you're in love when you can't fall asleep because reality is finally better than
+                            your dreams.” —Dr. Seuss
+                        </span>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="quotes-box">
+                        <h1 class="heading">Quotes</h1>
+                        <span>"I am who I am because of you. You are every reason, every hope, and every dream I’ve ever
+                            had." —The Notebook
+                        </span>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="quotes-box">
+                        <h1 class="heading">Quotes</h1>
+                        <span>“When you realize you want to spend the rest of your life with somebody, you want the rest
+                            of your life to start as soon as possible.” —When Harry Met Sally
+                        </span>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carousel-Fade" data-bs-slide="prev"
+                style="color: red;">
+                <span class="carousel-control-prev-icon" aria-hidden="true"
+                    style="background-color: grey; border-radius: 100%; padding:5%; opacity: 0.5;"></span>
+
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carousel-Fade" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"
+                    style="background-color: grey; border-radius: 100%; padding:5%; opacity: 0.5;"></span>
+            </button>
+        </div>
+
+    </section>
+    <section id="calculator">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-10 col-md-10 col-lg-8 outer-box mx-auto">
+                    <div class="inner-box">
+                        <h1 class="heading"><span class="H-flip">💕</span>Calculate<span>💕</span></h1>
+                        <div>
+                            <label class="label">Your Name</label>
+                        </div>
+                        <div>
+                            <input type="text" placeholder="Enter Your Name" class="input-name-box" name="getname">
+                            <div>
+                                <hr class="line">
+                            </div>
+                        </div>
+                        <div>
+                            <label class="label">Crush Name</label>
+                        </div>
+                        <div>
+                            <input type="text" placeholder="Enter Crush Name" class="input-name-box" name="getname">
+                        </div>
+
+                        <div class="center-btn">
+                            <input type="submit" value="Submit" class="submit">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+
+        <div class="container hide-contant open">
+            <div class="row">
+                <div class="col-sm-10 col-md-10 col-lg-8 outer-box mx-auto">
+                    <div class="inner-box result-box">
+
+                        <h1 class="heading"><span class="H-flip">💕</span>Result<span>💕</span></h1>
+                        <h2 class="heading">
+                            --%
+                        </h2>
+                        <p>
+                            eu mi bibendum neque egestas congue quisque egestas diam in arcu cursus euismod quis viverra
+                            nibh cras pulvinar mattis nunc sed blandit libero volutpat sed cras ornare arcu dui vivamus
+                            arcu felis bibendum ut tristique et egestas quis ipsum suspendisse
+                        </p>
+                        <button>X</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer id="footer">
+        <a class="fa-brands fa-github con" href="https://github.com/huzaif00"></a>
+        <a class="fa-brands fa-linkedin con" href="https://www.linkedin.com/in/mohd-huzaif-9408b3203/"></a>
+
+    </footer>
+    <script src="main.js"></script>
+</body>
+
+</html
